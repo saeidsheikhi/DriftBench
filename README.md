@@ -9,19 +9,6 @@ This repository contains the **DriftBench** benchmark: a procedurally generated 
 - `responses_main.jsonl` — prompts and raw model outputs for the example run (optional; can be large).
 - `fig*.png`, `*.tex` — paper-ready figures/tables produced from the run.
 
-## Quickstart (reproduce an evaluation run)
-
-1. **Install dependencies**
-   - Python 3.10+
-   - PostgreSQL 15+ (recommended) or SQLite fallback
-   - Python packages: `sqlglot`, `psycopg2-binary`, `pandas`, `numpy`, `matplotlib`
-
-2. **Run the notebook / script**
-   - Open `Schema_Drift_Repair_PAPER_READY-1000_FIXED.ipynb` and run all cells.
-
-3. **Outputs**
-   - The run writes outputs under `artifacts/` (results CSV, JSONL logs, figures, LaTeX tables).
-
 ## Data format (suite.jsonl)
 
 Each line is a JSON object describing one benchmark instance. Key fields:
