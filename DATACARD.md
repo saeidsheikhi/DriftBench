@@ -1,12 +1,12 @@
-# SDR Benchmark Data Card (v1.0)
+# DriftBench Benchmark Data Card (v1.0)
 
-## Motivation
+## Motivation 
 
-Schema evolution breaks production analytics and data applications. SDR measures how well automated agents (including LLM-based systems) can **repair SQL queries** under realistic schema drift.
+Schema evolution breaks production analytics and data applications. DriftBench measures how well automated agents (including LLM-based systems) can **repair SQL queries** under realistic schema drift.
 
 ## What is a single instance?
 
-An SDR instance includes:
+An DriftBench instance includes:
 - Original schema (tables + column names/types)
 - Drifted schema (after table/column renames)
 - Drift operations + canonical migration plan
