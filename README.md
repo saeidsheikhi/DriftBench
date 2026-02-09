@@ -1,8 +1,6 @@
-# DriftBench
+# DriftBench v1.0
 
-# Schema-Drift-Repair (SDR) Benchmark v1.0
-
-This repository contains the **Schema-Drift-Repair (SDR)** benchmark: a procedurally generated set of SQL repair tasks where a query written for an **original schema** fails after **schema drift** (table/column renames), and systems must rewrite the query to execute on the **drifted schema** while preserving semantics.
+This repository contains the **DriftBench** benchmark: a procedurally generated set of SQL repair tasks where a query written for an **original schema** fails after **schema drift** (table/column renames), and systems must rewrite the query to execute on the **drifted schema** while preserving semantics.
 
 ## What’s included
 
